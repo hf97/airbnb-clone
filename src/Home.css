@@ -1,4 +1,13 @@
 .home__section {
-    display: flex;
-    padding: 30px;
+  display: flex;
+  padding: 30px;
+}
+
+@media (max-width: 576px){
+  .home__section {
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
   }
+}

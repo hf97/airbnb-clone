@@ -72,4 +72,80 @@
     right: 30px;
 }
 
+@media (max-width: 768px){
+    .searchResults__price > p {
+        margin-top: 1px;;
+    }
+    
+    .searchResults__price > h2 {
+        text-align: right;
+        margin-bottom: 1px;;
+    }
 
+    .searchResults__price {
+        bottom: 0px;
+    }
+}
+
+@media (max-width: 576px){
+    .searchResult {
+        display: inline-block;
+    }
+    
+    .searchResult > img {
+        height: 180px;
+        width: 290px;
+    }
+    
+    
+    .searchResult__heart {
+        position: absolute;
+        top: 210px;
+        right: 40px;
+    }
+    
+    .searchResult__infoTop {
+        width: 70vw;
+    }
+    
+    .searchResult__infoTop > p {
+        margin-top: 10px;
+        font-size: 13px;
+        color: gray;
+    }
+
+    .searchResults__price > p {
+        margin-top: 1px;;
+    }
+    
+    .searchResults__price > h2 {
+        text-align: right;
+        margin-bottom: 1px;;
+    }
+
+    .searchResults__price {
+        bottom: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    .searchResult > img {
+        height: 200px;
+        width: 450px;
+    }
+
+    .searchResult__heart {
+        top: 240px;
+    }
+}
+
+@media (max-width: 414px) {
+    .searchResult > img {
+        height: 200px;
+        width: 330px;
+    }
+
+    .searchResult__heart {
+        top: 230px;
+    }
+}

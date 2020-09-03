@@ -37,3 +37,10 @@
     margin-top: 8px;
     margin-bottom: 8px;
   }
+
+  @media (max-width: 576px){
+    .card {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }

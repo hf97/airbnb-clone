@@ -12,7 +12,7 @@
 .header__icon {
   object-fit: contain;
   height: 100px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .header__center {
@@ -30,7 +30,7 @@
   border: none;
   padding: 10px;
   outline-width: 0;
-  /* width: 250px; */
+  width: 200px;
 }
 
 .header__right {
@@ -38,5 +38,30 @@
   align-items: center;
   justify-content: space-between;
   width: 15vw;
-  margin-right: 80px;
+  margin-right: 40px;
+}
+
+@media (max-width: 576px){
+  .header__icon {
+    object-fit: contain;
+    height: 50px;
+    margin-left: 5px;
+  }
+
+  .header__center {
+    padding: 12px;
+    height: 17px;
+  }
+
+  .header__center > input {
+    border: none;
+    outline-width: 0;
+    width: 50px;
+  }
+
+  .header__right {
+    width: 20vw;
+    margin-right: 80px;
+  }
+
 }

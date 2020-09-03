@@ -43,3 +43,11 @@
 .banner__info > h5 {
   margin-top: 10px;
 }
+
+@media (max-width: 576px){
+  .banner__info {
+    padding-top: 5vh;
+    padding-left: 20px;
+    width: 150px;
+  }
+}
