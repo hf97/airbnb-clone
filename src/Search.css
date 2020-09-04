@@ -49,37 +49,30 @@
     color: #ff7779;
 }
 
-@media (max-width: 576px){
-    /* .search { */
-        /* height: 100px; */
-        /* left: 0%; */
-    /* } */
-    
-    /* .search > h2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 559px;
-        padding: 10px;
-        background-color: white;
-        position: absolute;
-        left: 0;
-        margin: 0 0;
+@media (max-width: 414px){
+    .search {
+        width: 500px;
+        left: 60%;
     }
-    
-    .search > input {
-        width: 539px;
-        padding: 20px;
-        position: absolute;
-        left: 0;
-        top: 400px;
-        border: none;
-      }
-      
-    .search > button {
-        position: absolute;
-        left: 0;
-        width: 579px;
-      } */
-    
+}
+
+@media (max-width: 375px){
+    .search {
+        width: 500px;
+        left: 65%;
+    }
+}
+
+@media (max-width: 360px){
+    .search {
+        width: 500px;
+        left: 68%;
+    }
+}
+
+@media (max-width: 320px){
+    .search {
+        width: 500px;
+        left: 75%;
+    }
 }
