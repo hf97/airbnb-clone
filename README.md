@@ -1,4 +1,4 @@
-## Airbnb Clone
+# Airbnb Clone
 
 ![Demo](https://github.com/hf97/airbnb-clone/blob/master/demo/demo.gif)
 
